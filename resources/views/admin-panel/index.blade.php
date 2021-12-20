@@ -54,7 +54,7 @@
                     <form action="{{ route('group.destroy', $group->id) }}" method="post">
                         @csrf
                         @method('delete')
-                        <button class="btn btn-danger">Delete</button>
+                        <button class="btn btn-outline-warning">Delete</button>
                     </form>
 
                 </div>
@@ -73,7 +73,7 @@
                         <form action="{{ route('product.destroy', $product->id) }}" method="post">
                             @csrf
                             @method('delete')
-                            <button class="btn btn-danger">Delete</button>
+                            <button class="btn btn-outline-warning">Delete</button>
                         </form>
                     </div>
                 </div>
